@@ -39,8 +39,8 @@ for (let color of colors) {
   buttons[color] = document.getElementById(color);
 }
 
-const buttonSound = new Audio("sound/Game.mp4");
-const wrongSound = new Audio("sound/gameover.wav");
+const buttonSound = new Audio("Game.mp4");
+const wrongSound = new Audio("gameover.wav");
 
 // Settings controls
 document.getElementById("toggle-sound").addEventListener("change", (e) => {
